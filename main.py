@@ -46,7 +46,7 @@
 #         print(f"Заробітна плата {self.name}: {self.salary}")
 # employee=Employee()
 # employee.get_salary_info()
-4
+4.
 class Rectangle:
     def __init__(self, width=4, height=6):
         self.width=width
