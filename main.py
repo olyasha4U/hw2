@@ -46,17 +46,32 @@
 #         print(f"Заробітна плата {self.name}: {self.salary}")
 # employee=Employee()
 # employee.get_salary_info()
-4.
-class Rectangle:
-    def __init__(self, width=4, height=6):
-        self.width=width
-        self.height=height
-    def calculate_area(self):
-        area=self.height*self.width
-        print(f"Rectangle area ={area}")
-    def calculate_perimeter(self):
-        perimeter=self.height+self.width
-        print(f"Rectangle perimeter={perimeter}")
-rec=Rectangle()
-rec.calculate_area()
-rec.calculate_perimeter()
+# 4.
+# class Rectangle:
+#     def __init__(self, width=4, height=6):
+#         self.width=width
+#         self.height=height
+#     def calculate_area(self):
+#         area=self.height*self.width
+#         print(f"Rectangle area ={area}")
+#     def calculate_perimeter(self):
+#         perimeter=self.height+self.width
+#         print(f"Rectangle perimeter={perimeter}")
+# rec=Rectangle()
+# rec.calculate_area()
+# rec.calculate_perimeter()
+5
+class Product:
+    def __init__(self, name="pen", price=14, quantity=10):
+        self.name=name
+        self.price=price
+        self.quantity=quantity
+    def calculate_total_price(self):
+        total=self.price*self.quantity
+        print(f"Total price :{total}")
+    def display_info(self):
+        print(f"Name:{self.name}, price:{self.price}, quantity:{self.quantity}")
+
+pen=Product()
+pen.display_info()
+pen.calculate_total_price()
